@@ -5,13 +5,15 @@ import Greet from './components/Greet';
 import Welcome from './components/Welcome';
 import Hello from './components/hello';
 import Message from'./components/message';
+import Counter from './components/Counter';
 
 
 class App extends Component{
   render(){
     return(
       <div className="App">
-        <Message/>
+        <Counter/>
+        {/* <Message/> */}
          {/* < Greet name= "Nairobi" series="MH">
           <h1>Example for children</h1>
           </Greet>
