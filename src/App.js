@@ -4,12 +4,15 @@ import './App.css';
 import Greet from './components/Greet';
 import Welcome from './components/Welcome';
 import Hello from './components/hello';
+import Message from'./components/message';
+
 
 class App extends Component{
   render(){
     return(
       <div className="App">
-         < Greet name= "Nairobi" series="MH">
+        <Message/>
+         {/* < Greet name= "Nairobi" series="MH">
           <h1>Example for children</h1>
           </Greet>
          < Greet name= "Arya Stark" series="GOT">
@@ -23,7 +26,7 @@ class App extends Component{
           <button>Click Me!</button>
           </Welcome>
          < Welcome name= "Khaleesi" series="GOT"/> 
-        <Hello/>
+        <Hello/> */}
       </div>
     ); 
   }
