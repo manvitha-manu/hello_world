@@ -6,7 +6,7 @@ import React, {Component} from 'react'
 // //     return (
 // //       <div>
 // //     <h1> This is Class Component. Welcome!! {this.props.name} from {this.props.series}</h1> 
-// //     {this.props.children}
+    // {this.props.children}
 // //     </div>
 // //     )
 // // }
